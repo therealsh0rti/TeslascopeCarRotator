@@ -1,0 +1,6 @@
+{
+    "name": "Teslascope Car Rotator",
+    "description": "Gives the car image on teslascope.com a random rotation.",
+    "version": "1.0",
+    "manifest_version": 3
+  }
