@@ -2,5 +2,11 @@
     "name": "Teslascope Car Rotator",
     "description": "Gives the car image on teslascope.com a random rotation.",
     "version": "1.0",
-    "manifest_version": 3
+    "manifest_version": 3,
+    "content_scripts": [
+      {
+        "matches": ["https://teslascope.com/*"],
+        "js": ["rotate-car.js"]
+      }
+    ]
   }
